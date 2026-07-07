@@ -1260,7 +1260,7 @@
     <div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh">
       <div style="height:2px;background:var(--accent);width:100%"></div>
       <h2 class="h-xl-zh">总体情况介绍</h2>
-      <div class="t-body-sm" style="color:var(--text-secondary);max-width:70ch;margin-top:.6vh;font-weight:400">历经近3~4个月的讨论与研发，目前已经基本完成了新版的境外航班效益预测的框架构建。</div>
+      <div class="t-body-sm" style="color:var(--text-secondary);max-width:70ch;margin-top:.6vh;font-weight:400">历经近半年的调研学习与讨论研发，在全体模型组同仁的共同努力下，目前已经基本完成了新版的境外航班效益预测的框架构建。</div>
     </div>
     <div data-anim="up" style="flex:1;display:grid;grid-template-columns:repeat(3,1fr);gap:2vw;margin-top:3vh;align-items:stretch">
       <!-- Card 1 · 模型预测范围 -->
@@ -1287,11 +1287,11 @@
           </div>
           <div style="background:var(--grey-1);padding:1.2vh 1vw;display:flex;flex-direction:column;gap:.4vh">
             <div class="t-meta" style="font-size:max(13px,.74vw);color:var(--accent)">差异二 · 预测场景细化</div>
-            <div style="font-family:var(--sans),var(--sans-zh);font-size:max(15px,.9vw);line-height:1.45;color:var(--text-secondary);font-weight:400">经济舱扩展至两舱+货运；业务视角从票价、收入扩展至贡献维度</div>
+            <div style="font-family:var(--sans),var(--sans-zh);font-size:max(15px,.9vw);line-height:1.45;color:var(--text-secondary);font-weight:400">经济舱扩展至两舱+货运；业务视角从人数、票价扩展至收入、贡献维度</div>
           </div>
           <div style="background:var(--grey-1);padding:1.2vh 1vw;display:flex;flex-direction:column;gap:.4vh">
-            <div class="t-meta" style="font-size:max(13px,.74vw);color:var(--accent)">差异三 · 精度更高</div>
-            <div style="font-family:var(--sans),var(--sans-zh);font-size:max(15px,.9vw);line-height:1.45;color:var(--text-secondary);font-weight:400">人数和票价预测精度均高出1个百分点</div>
+            <div class="t-meta" style="font-size:max(13px,.74vw);color:var(--accent)">差异三 · 更善于寻找潜力航班</div>
+            <div style="font-family:var(--sans),var(--sans-zh);font-size:max(15px,.9vw);line-height:1.45;color:var(--text-secondary);font-weight:400">对提前满客、临近Noshow航班进行需求还原</div>
           </div>
         </div>
       </div>
@@ -1299,20 +1299,21 @@
       <div style="display:flex;flex-direction:column;gap:1.2vh;border-top:3px solid var(--accent);padding-top:2vh">
         <div class="t-meta" style="color:var(--accent);letter-spacing:.14em">— 03 / ACCURACY</div>
         <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(18px,1.6vw);line-height:1.1;letter-spacing:-.015em">精度优化成效</h3>
-        <div style="display:flex;flex-direction:column;gap:1.2vh;flex:1">
-          <div style="display:grid;grid-template-columns:1fr 1fr;gap:1vw;flex:1;align-content:start">
-            <div class="stat-card thin" style="display:flex;flex-direction:column;gap:.4vh;align-items:flex-start;padding-top:1.2vh;border-top:1px solid rgba(127,127,127,.4)">
-              <div class="t-meta" style="font-size:max(13px,.72vw);letter-spacing:.14em">人数精度</div>
-              <div style="font-family:var(--sans);font-weight:200;font-size:min(3.6vw,6.4vh);line-height:.9;letter-spacing:-.035em;font-feature-settings:'tnum';color:var(--accent)">+1<span style="font-family:var(--sans),var(--sans-zh);font-weight:300;font-size:.32em;opacity:.6;margin-left:.12em;vertical-align:.4em">%</span></div>
-              <div style="font-family:var(--sans),var(--sans-zh);font-size:max(15px,.88vw);line-height:1.5;opacity:.7;margin-top:.2vh">6月5日上线以来</div>
+        <div style="display:flex;flex-direction:column;gap:1.6vh;padding-top:1.2vh">
+          <div style="font-family:var(--sans),var(--sans-zh);font-size:max(15px,.88vw);line-height:1.55;color:var(--text-secondary);font-weight:400">人数、票价、收入部分的预测精度均有所提升，尤其起飞前2周的航班提升尤为明显。</div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:1vw">
+            <div style="background:var(--grey-1);padding:1.2vh 1vw;display:flex;flex-direction:column;gap:.4vh;align-items:center;text-align:center">
+              <div class="t-meta" style="font-size:max(13px,.72vw);letter-spacing:.14em">票价预测精度</div>
+              <div style="font-family:var(--sans);font-weight:200;font-size:min(2.8vw,5vh);line-height:.9;letter-spacing:-.035em;color:var(--accent)">+1<span style="font-family:var(--sans),var(--sans-zh);font-weight:300;font-size:.35em;opacity:.6;margin-left:.1em">pp</span></div>
+              <div style="font-family:var(--sans),var(--sans-zh);font-size:max(13px,.74vw);line-height:1.4;color:var(--text-secondary)">较传统算法提升</div>
             </div>
-            <div class="stat-card thin" style="display:flex;flex-direction:column;gap:.4vh;align-items:flex-start;padding-top:1.2vh;border-top:1px solid rgba(127,127,127,.4)">
-              <div class="t-meta" style="font-size:max(13px,.72vw);letter-spacing:.14em">票价精度</div>
-              <div style="font-family:var(--sans);font-weight:200;font-size:min(3.6vw,6.4vh);line-height:.9;letter-spacing:-.035em;font-feature-settings:'tnum';color:var(--accent)">+1<span style="font-family:var(--sans),var(--sans-zh);font-weight:300;font-size:.32em;opacity:.6;margin-left:.12em;vertical-align:.4em">%</span></div>
-              <div style="font-family:var(--sans),var(--sans-zh);font-size:max(15px,.88vw);line-height:1.5;opacity:.7;margin-top:.2vh">票价准确度同步优化</div>
+            <div style="background:var(--grey-1);padding:1.2vh 1vw;display:flex;flex-direction:column;gap:.4vh;align-items:center;text-align:center">
+              <div class="t-meta" style="font-size:max(13px,.72vw);letter-spacing:.14em">收入预测精度</div>
+              <div style="font-family:var(--sans);font-weight:200;font-size:min(2.8vw,5vh);line-height:.9;letter-spacing:-.035em;color:var(--accent)">+2<span style="font-family:var(--sans),var(--sans-zh);font-weight:300;font-size:.35em;opacity:.6;margin-left:.1em">pp</span></div>
+              <div style="font-family:var(--sans),var(--sans-zh);font-size:max(13px,.74vw);line-height:1.4;color:var(--text-secondary)">较传统算法提高</div>
             </div>
           </div>
-          <div style="font-family:var(--sans),var(--sans-zh);font-size:max(15px,.88vw);line-height:1.55;color:var(--text-secondary);font-weight:400;padding-top:1.2vh;border-top:1px solid var(--border-subtle);margin-top:auto">相较传统模型，新版在人数和票价双维度均实现精度提升</div>
+          <div style="font-family:var(--sans),var(--sans-zh);font-size:max(15px,.88vw);line-height:1.55;color:var(--text-secondary);font-weight:400">更远期的航班有待继续追踪。</div>
         </div>
       </div>
     </div>
@@ -1502,7 +1503,7 @@
           <!-- 优化方向 -->
           <div style="background:var(--grey-1);padding:1.6vh 1.4vw;border-left:3px solid var(--accent);display:flex;flex-direction:column;justify-content:center;flex:1;gap:.8vh">
             <div class="t-meta" style="color:var(--accent);font-size:max(13px,.78vw);padding-bottom:.6vh;border-bottom:1px solid var(--grey-2)">优化方向</div>
-            <p style="font-family:var(--sans),var(--sans-zh);font-size:max(16px,1vw);line-height:1.55;font-weight:400;color:var(--text-primary)"><strong>规则链模式改造</strong> —— 境内、外短中长期预测逻辑重叠度高，后续改为规则链模式，提高运行效率与可维护性</p>
+            <p style="font-family:var(--sans),var(--sans-zh);font-size:max(16px,1vw);line-height:1.55;font-weight:400;color:var(--text-primary)"><strong>优化航班效益预测引擎</strong> —— 支持多业务场景、多航司预测，对成熟预测算法和逻辑形成规则链，对差异化的部分进行个性化支持，减少冗余代码和不必要的算力消耗</p>
           </div>
           <!-- 主要困难 -->
           <div style="background:var(--grey-1);padding:1.6vh 1.4vw;border-left:3px solid var(--grey-3);display:flex;flex-direction:column;justify-content:center;flex:1;gap:.8vh">
