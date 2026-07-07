@@ -1,0 +1,4700 @@
+{
+  "version": "2.14",
+  "children": [
+    {
+      "type": "frame",
+      "id": "Y2U7N",
+      "x": 0,
+      "y": 0,
+      "name": "P01 封面",
+      "clip": true,
+      "width": 1280,
+      "height": 720,
+      "fill": "$accent",
+      "layout": "vertical",
+      "padding": 48,
+      "justifyContent": "space_between",
+      "children": [
+        {
+          "type": "frame",
+          "id": "H2QLkd",
+          "name": "Chrome",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "EuYQS",
+              "name": "LeftMeta",
+              "fill": "#ffffff99",
+              "content": "MARKETING REPORT · JUN 2026",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "O6w9Z",
+              "name": "RightMeta",
+              "fill": "#ffffff99",
+              "content": "2026.07 · 01 / 15",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "F38Ry",
+          "name": "TitleArea",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "D0o7E",
+              "name": "SubLabel",
+              "fill": "#ffffffc7",
+              "content": "MARKETING REPORT",
+              "textAlign": "center",
+              "fontFamily": "$font-mono",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "ZNC08",
+              "name": "Title1",
+              "fill": "#FFFFFF",
+              "content": "2026年6月",
+              "textAlign": "center",
+              "fontFamily": "$font-sans",
+              "fontSize": 82,
+              "fontWeight": "200",
+              "letterSpacing": -2
+            },
+            {
+              "type": "text",
+              "id": "uXRyK",
+              "name": "Title2",
+              "fill": "#FFFFFF",
+              "content": "生产经营分析会",
+              "textAlign": "center",
+              "fontFamily": "$font-sans",
+              "fontSize": 82,
+              "fontWeight": "200",
+              "letterSpacing": -2
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fTbxM",
+          "name": "Bottom",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "end",
+          "children": [
+            {
+              "type": "text",
+              "id": "t0IoYl",
+              "name": "Speaker",
+              "fill": "#ffffffdb",
+              "content": "张总 · 2026年7月9日",
+              "fontFamily": "$font-sans",
+              "fontSize": 18,
+              "fontWeight": "300"
+            },
+            {
+              "type": "text",
+              "id": "ZiNfF",
+              "name": "Hint",
+              "fill": "#ffffff99",
+              "content": "→ swipe / arrow keys",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "RuibT",
+      "x": 1340,
+      "y": 0,
+      "name": "P02 目录",
+      "clip": true,
+      "width": 1280,
+      "height": 720,
+      "fill": "$bg-paper",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 48,
+      "children": [
+        {
+          "type": "frame",
+          "id": "qsS4Q",
+          "name": "Chrome",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "text",
+              "id": "Mp3VR",
+              "name": "LeftMeta",
+              "fill": "$text-helper",
+              "content": "CONTENTS",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "dlLSD",
+              "name": "RightMeta",
+              "fill": "$text-helper",
+              "content": "02 / 15",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BNdji",
+          "name": "Head",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "text",
+              "id": "mEqCP",
+              "name": "Cat",
+              "fill": "$accent",
+              "content": "目录 · OVERVIEW",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "Mjyw3",
+              "name": "Title",
+              "fill": "$text-primary",
+              "content": "汇报结构",
+              "fontFamily": "$font-sans",
+              "fontSize": 52,
+              "fontWeight": "200",
+              "letterSpacing": -1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "phGjK",
+          "name": "Cards",
+          "width": "fill_container",
+          "gap": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "qEGoK",
+              "name": "01-经营概况",
+              "width": "fill_container",
+              "fill": "$grey-1",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "u22taO",
+                  "name": "Num",
+                  "fill": "$accent",
+                  "content": "01",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "v06PeR",
+                  "name": "TitleText",
+                  "fill": "$text-primary",
+                  "content": "经营概况",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 28,
+                  "fontWeight": "200",
+                  "letterSpacing": -0.5
+                },
+                {
+                  "type": "text",
+                  "id": "rxIMM",
+                  "name": "Desc",
+                  "fill": "$text-secondary",
+                  "content": "核心KPI及经营形势总览",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "HuA0J",
+              "name": "02-五大工作",
+              "width": "fill_container",
+              "fill": "$grey-1",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "cK9zP",
+                  "name": "Num",
+                  "fill": "$accent",
+                  "content": "02",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "dAJKf",
+                  "name": "TitleText",
+                  "fill": "$text-primary",
+                  "content": "五大工作",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 28,
+                  "fontWeight": "200",
+                  "letterSpacing": -0.5
+                },
+                {
+                  "type": "text",
+                  "id": "JaXem",
+                  "name": "Desc",
+                  "fill": "$text-secondary",
+                  "content": "运力·效益·辅营·客户·销售管控",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "TGrCX",
+              "name": "03-绩效通报",
+              "width": "fill_container",
+              "fill": "$grey-1",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "e6r5xN",
+                  "name": "Num",
+                  "fill": "$accent",
+                  "content": "03",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "DTqLs",
+                  "name": "TitleText",
+                  "fill": "$text-primary",
+                  "content": "绩效通报",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 28,
+                  "fontWeight": "200",
+                  "letterSpacing": -0.5
+                },
+                {
+                  "type": "text",
+                  "id": "oHMV8",
+                  "name": "Desc",
+                  "fill": "$text-secondary",
+                  "content": "A/B/C/D/境外量级排名及专项指标",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "oDJmY",
+              "name": "04-暑运展望",
+              "width": "fill_container",
+              "fill": "$accent",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mNtrx",
+                  "name": "Num",
+                  "fill": "#ffffffb3",
+                  "content": "04",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "p2t5A",
+                  "name": "TitleText",
+                  "fill": "#FFFFFF",
+                  "content": "暑运展望",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 28,
+                  "fontWeight": "200",
+                  "letterSpacing": -0.5
+                },
+                {
+                  "type": "text",
+                  "id": "A2g2m",
+                  "name": "Desc",
+                  "fill": "#ffffffcc",
+                  "content": "旺季攻坚 · 全年经营决战核心期",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "zkrDE",
+      "x": 2680,
+      "y": 0,
+      "name": "P03 经营概况",
+      "clip": true,
+      "width": 1280,
+      "height": 720,
+      "fill": "$bg-paper",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 48,
+      "children": [
+        {
+          "type": "frame",
+          "id": "tyf1K",
+          "name": "Chrome",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "text",
+              "id": "fyQCK",
+              "name": "LeftMeta",
+              "fill": "$text-helper",
+              "content": "OPERATING OVERVIEW",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "tYuzh",
+              "name": "RightMeta",
+              "fill": "$text-helper",
+              "content": "03 / 15",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tX0Cf",
+          "name": "Head",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "text",
+              "id": "ptVhx",
+              "name": "Cat",
+              "fill": "$accent",
+              "content": "上半年经营概况 · H1 2026",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "wPV1Y",
+              "name": "Title",
+              "fill": "$text-primary",
+              "content": "核心指标",
+              "fontFamily": "$font-sans",
+              "fontSize": 52,
+              "fontWeight": "200",
+              "letterSpacing": -1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "IDOzY",
+          "name": "KPIRow",
+          "width": "fill_container",
+          "gap": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "eyo8u",
+              "name": "KPI 日利用率",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GggQj",
+                  "name": "Label",
+                  "fill": "$text-helper",
+                  "content": "飞机日利用率 / HOURS",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "QLGJA",
+                  "name": "BigNum",
+                  "fill": "$accent",
+                  "content": "9.4",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 72,
+                  "fontWeight": "200",
+                  "letterSpacing": -2
+                },
+                {
+                  "type": "text",
+                  "id": "Uwffk",
+                  "name": "Unit",
+                  "fill": "$text-secondary",
+                  "content": "小时",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 18,
+                  "fontWeight": "300"
+                },
+                {
+                  "type": "frame",
+                  "id": "SJ7xd",
+                  "name": "Delta",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "okeRF",
+                      "name": "D1",
+                      "fill": "$text-secondary",
+                      "content": "同比 -0.4h",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Elux8",
+                      "name": "D2",
+                      "fill": "$accent",
+                      "content": "比行业高 0.4h",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PXWNe",
+              "name": "KPI 旺季",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "QnUJZ",
+                  "name": "Label",
+                  "fill": "$text-helper",
+                  "content": "旺季日利用率 / PEAK",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "L50x9U",
+                  "name": "BigNum",
+                  "fill": "$text-primary",
+                  "content": "10.8",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 72,
+                  "fontWeight": "200",
+                  "letterSpacing": -2
+                },
+                {
+                  "type": "text",
+                  "id": "yBkJD",
+                  "name": "Unit",
+                  "fill": "$text-secondary",
+                  "content": "小时 春运·五一",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 18,
+                  "fontWeight": "300"
+                },
+                {
+                  "type": "text",
+                  "id": "XKz45",
+                  "name": "Tag",
+                  "fill": "$accent",
+                  "content": "主要航司首位",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Lo4IG",
+              "name": "KPI 票价",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "KO1pD",
+                  "name": "Label",
+                  "fill": "$text-helper",
+                  "content": "行业平均票价 / PRICE",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "AY700",
+                  "name": "BigNum",
+                  "fill": "$accent",
+                  "content": "790",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 72,
+                  "fontWeight": "200",
+                  "letterSpacing": -2
+                },
+                {
+                  "type": "text",
+                  "id": "WBS5U",
+                  "name": "Unit",
+                  "fill": "$text-secondary",
+                  "content": "元 4-6月",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 18,
+                  "fontWeight": "300"
+                },
+                {
+                  "type": "text",
+                  "id": "Af44M",
+                  "name": "Tag",
+                  "fill": "$accent",
+                  "content": "同比 +100元",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "uutaN",
+              "name": "KPI 辅营",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "f1aVu",
+                  "name": "Label",
+                  "fill": "$text-helper",
+                  "content": "辅营贡献 / ANCILLARY",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "tPbKe",
+                  "name": "BigNum",
+                  "fill": "$text-primary",
+                  "content": "2.2",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 72,
+                  "fontWeight": "200",
+                  "letterSpacing": -2
+                },
+                {
+                  "type": "text",
+                  "id": "tvHix",
+                  "name": "Unit",
+                  "fill": "$text-secondary",
+                  "content": "亿元 1-6月",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 18,
+                  "fontWeight": "300"
+                },
+                {
+                  "type": "text",
+                  "id": "T10az",
+                  "name": "Tag",
+                  "fill": "$accent",
+                  "content": "同比 +9%",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "MtndV",
+          "name": "Note",
+          "fill": "$text-helper",
+          "content": "经营形势 · 燃油成本持续高位运行，经营明显承压",
+          "fontFamily": "$font-mono",
+          "fontSize": 12,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "v6Vi9",
+      "x": 4020,
+      "y": 0,
+      "name": "P04 运力投入境内",
+      "clip": true,
+      "width": 1280,
+      "height": 720,
+      "fill": "$bg-paper",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 48,
+      "children": [
+        {
+          "type": "frame",
+          "id": "r0snf",
+          "name": "Chrome",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "text",
+              "id": "hLqyS",
+              "name": "LeftMeta",
+              "fill": "$text-helper",
+              "content": "CAPACITY OPTIMIZATION",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "WD9b3",
+              "name": "RightMeta",
+              "fill": "$text-helper",
+              "content": "04 / 15",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "e9inHR",
+          "name": "Head",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "text",
+              "id": "EfgYm",
+              "name": "Cat",
+              "fill": "$accent",
+              "content": "优化运力投入 · 境内",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "s2uSB3",
+              "name": "Title",
+              "fill": "$text-primary",
+              "content": "优化运力投入 ① 境内",
+              "fontFamily": "$font-sans",
+              "fontSize": 48,
+              "fontWeight": "200",
+              "letterSpacing": -1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "J1ECT",
+          "name": "Cards4",
+          "width": "fill_container",
+          "gap": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "sjD3O",
+              "name": "— 01 · PEAK",
+              "width": "fill_container",
+              "fill": "$grey-1",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 28,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nvbV2",
+                  "name": "Tag",
+                  "fill": "$accent",
+                  "content": "— 01 · PEAK",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "kr1ng",
+                  "name": "Num",
+                  "fill": "$text-primary",
+                  "content": "10.8h",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 44,
+                  "fontWeight": "200",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "at7U5",
+                  "name": "Desc",
+                  "fill": "$text-secondary",
+                  "content": "春运·五一旺季日利用率",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ocIvi",
+                  "name": "HL",
+                  "fill": "$accent",
+                  "content": "居主要航司首位",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ELvUq",
+              "name": "— 02 · SHARE",
+              "width": "fill_container",
+              "fill": "$grey-1",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 28,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "bqBQz",
+                  "name": "Tag",
+                  "fill": "$accent",
+                  "content": "— 02 · SHARE",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "dzXGj",
+                  "name": "Num",
+                  "fill": "$text-primary",
+                  "content": "35%",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 44,
+                  "fontWeight": "200",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "ZGxoG",
+                  "name": "Desc",
+                  "fill": "$text-secondary",
+                  "content": "厦门、福州市场运力份额",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "n2dhIk",
+                  "name": "HL",
+                  "fill": "$accent",
+                  "content": "稳定为主",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Xs2ab",
+              "name": "— 03 · TRUNK",
+              "width": "fill_container",
+              "fill": "$grey-1",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 28,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "h39yP",
+                  "name": "Tag",
+                  "fill": "$accent",
+                  "content": "— 03 · TRUNK",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "V71sK",
+                  "name": "Num",
+                  "fill": "$text-primary",
+                  "content": "加密",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 44,
+                  "fontWeight": "200",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "hjtUF",
+                  "name": "Desc",
+                  "fill": "$text-secondary",
+                  "content": "加密虹桥-深圳等干线市场",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "x5K3XD",
+              "name": "— 04 · CUT",
+              "width": "fill_container",
+              "fill": "$grey-1",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 28,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "C4m1k9",
+                  "name": "Tag",
+                  "fill": "$accent",
+                  "content": "— 04 · CUT",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "U6Yj3f",
+                  "name": "Num",
+                  "fill": "$text-primary",
+                  "content": "1.1万班",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 44,
+                  "fontWeight": "200",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "dqJQC",
+                  "name": "Desc",
+                  "fill": "$text-secondary",
+                  "content": "取消经停、短航距等负贡献航班",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "y1p61i",
+          "name": "Note",
+          "fill": "$text-secondary",
+          "content": "后续紧盯航线成本变化，增飞高效益航班",
+          "fontFamily": "$font-sans",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ZJbYA",
+      "x": 5360,
+      "y": 0,
+      "name": "P05 运力投入境外",
+      "clip": true,
+      "width": 1280,
+      "height": 720,
+      "fill": "$bg-paper",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 48,
+      "children": [
+        {
+          "type": "frame",
+          "id": "Wk34N",
+          "name": "Chrome",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "text",
+              "id": "umI4t",
+              "name": "LeftMeta",
+              "fill": "$text-helper",
+              "content": "CAPACITY OPTIMIZATION",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "JKDzx",
+              "name": "RightMeta",
+              "fill": "$text-helper",
+              "content": "05 / 15",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lWvO5",
+          "name": "Head",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "text",
+              "id": "g3Nz2g",
+              "name": "Cat",
+              "fill": "$accent",
+              "content": "优化运力投入 · 境外",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "v6nFDX",
+              "name": "Title",
+              "fill": "$text-primary",
+              "content": "优化运力投入 ② 境外",
+              "fontFamily": "$font-sans",
+              "fontSize": 48,
+              "fontWeight": "200",
+              "letterSpacing": -1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "QjLkB",
+          "name": "Layers",
+          "width": "fill_container",
+          "gap": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "SA6Mt",
+              "name": "Layer1 福州阿姆",
+              "width": "fill_container",
+              "fill": "$accent",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 28,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "L5FVQ5",
+                  "name": "Tag",
+                  "fill": "#ffffffa6",
+                  "content": "— 01 · NEW ROUTE",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "Y0bwmP",
+                  "name": "Route",
+                  "fill": "#FFFFFF",
+                  "content": "福州—阿姆斯特丹",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 28,
+                  "fontWeight": "200",
+                  "letterSpacing": -0.5
+                },
+                {
+                  "type": "text",
+                  "id": "qNx01",
+                  "name": "Desc",
+                  "fill": "#ffffffcc",
+                  "content": "每周2班，稳步拓展洲际航线",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Oz5wB",
+                  "name": "Status",
+                  "fill": "#ffffff99",
+                  "content": "已开通",
+                  "textAlign": "right",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "TvtOv",
+              "name": "Layer2 厦门伦敦",
+              "width": "fill_container",
+              "fill": "$grey-1",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 28,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ZigeN",
+                  "name": "Tag",
+                  "fill": "$accent",
+                  "content": "— 02 · UPCOMING",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "E1MHe",
+                  "name": "Route",
+                  "fill": "$text-primary",
+                  "content": "厦门—伦敦",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 28,
+                  "fontWeight": "200",
+                  "letterSpacing": -0.5
+                },
+                {
+                  "type": "text",
+                  "id": "gG2u6",
+                  "name": "Desc",
+                  "fill": "$text-secondary",
+                  "content": "每周3班，计划9月新开",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ev6ah",
+                  "name": "Status",
+                  "fill": "$text-helper",
+                  "content": "即将开通",
+                  "textAlign": "right",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aALdR",
+              "name": "Layer3 东南亚",
+              "width": "fill_container",
+              "fill": "$grey-1",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 28,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jjgt8",
+                  "name": "Tag",
+                  "fill": "$accent",
+                  "content": "— 03 · SOUTHEAST ASIA",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "WMYvD",
+                  "name": "Route",
+                  "fill": "$text-primary",
+                  "content": "8条省外东南亚航线",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 28,
+                  "fontWeight": "200",
+                  "letterSpacing": -0.5
+                },
+                {
+                  "type": "text",
+                  "id": "E0DWOe",
+                  "name": "Desc",
+                  "fill": "$text-secondary",
+                  "content": "雅加达→武汉、吉隆坡→南京等",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "EzWFb",
+                  "name": "Status",
+                  "fill": "$text-helper",
+                  "content": "规模性开通",
+                  "textAlign": "right",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "sHHyt",
+      "x": 6700,
+      "y": 0,
+      "name": "P06 市场效益",
+      "clip": true,
+      "width": 1280,
+      "height": 720,
+      "fill": "$bg-paper",
+      "layout": "vertical",
+      "gap": 20,
+      "padding": 48,
+      "children": [
+        {
+          "type": "frame",
+          "id": "R8H0L1",
+          "name": "Chrome",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "text",
+              "id": "rCvvn",
+              "name": "LeftMeta",
+              "fill": "$text-helper",
+              "content": "MARKET PERFORMANCE",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "HIiVd",
+              "name": "RightMeta",
+              "fill": "$text-helper",
+              "content": "06 / 15",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Rpj6C",
+          "name": "Head",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "text",
+              "id": "aTO1I",
+              "name": "Cat",
+              "fill": "$accent",
+              "content": "抢抓市场效益",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "beyFG",
+              "name": "Title",
+              "fill": "$text-primary",
+              "content": "抢抓市场效益",
+              "fontFamily": "$font-sans",
+              "fontSize": 48,
+              "fontWeight": "200",
+              "letterSpacing": -1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "f5wjSc",
+          "name": "Duo",
+          "width": "fill_container",
+          "gap": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "R8mSX",
+              "name": "LeftCol",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wKNxj",
+                  "name": "Tag",
+                  "fill": "$accent",
+                  "content": "— 旺季 · HIGH SEASON",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "GiCwz",
+                  "name": "Ttl",
+                  "fill": "$text-primary",
+                  "content": "座小时贡献",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 28,
+                  "fontWeight": "200",
+                  "letterSpacing": -0.5
+                },
+                {
+                  "type": "frame",
+                  "id": "q6vsuE",
+                  "name": "MetricsL",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "RA9Gb",
+                      "name": "M1 境内",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "W8ZU1",
+                          "name": "Label",
+                          "fill": "$accent",
+                          "content": "境内旺季",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OjIPe",
+                          "name": "Num",
+                          "fill": "$accent",
+                          "content": "+40",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 56,
+                          "fontWeight": "200",
+                          "letterSpacing": -1
+                        },
+                        {
+                          "type": "text",
+                          "id": "YXdFE",
+                          "name": "Unit",
+                          "fill": "$text-secondary",
+                          "content": "元 超境内平均水平",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "XZzyP",
+                      "name": "M2 境外",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "q9LfC",
+                          "name": "Label",
+                          "fill": "$accent",
+                          "content": "境外热点",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "fK5J5",
+                          "name": "Num",
+                          "fill": "$accent",
+                          "content": "250+",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 56,
+                          "fontWeight": "200",
+                          "letterSpacing": -1
+                        },
+                        {
+                          "type": "text",
+                          "id": "ZkWZV",
+                          "name": "Unit2",
+                          "fill": "$text-secondary",
+                          "content": "元 开斋节·复活节·学生假期",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "A1hGNu",
+              "name": "VRule",
+              "fill": "$grey-2",
+              "width": 1,
+              "height": 0
+            },
+            {
+              "type": "frame",
+              "id": "VXxzu",
+              "name": "RightCol",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HURhh",
+                  "name": "Tag",
+                  "fill": "$text-primary",
+                  "content": "— 协同 · INDUSTRY SYNERGY",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "c6TF4",
+                  "name": "Ttl",
+                  "fill": "$text-primary",
+                  "content": "共减提价",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 28,
+                  "fontWeight": "200",
+                  "letterSpacing": -0.5
+                },
+                {
+                  "type": "frame",
+                  "id": "hPR66",
+                  "name": "MetricsR",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "F8ylxI",
+                      "name": "M3 利用率",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "WtH1z",
+                          "name": "Label",
+                          "fill": "$text-helper",
+                          "content": "行业日利用率",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "zGRmd",
+                          "name": "Num",
+                          "fill": "$text-primary",
+                          "content": "8.42h",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 36,
+                          "fontWeight": "200",
+                          "letterSpacing": -1
+                        },
+                        {
+                          "type": "text",
+                          "id": "Qb0J1",
+                          "name": "Delta",
+                          "fill": "$text-secondary",
+                          "content": "同比 -0.55h",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "LyUZO",
+                      "name": "M4 票价",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "burZG",
+                          "name": "Label",
+                          "fill": "$text-helper",
+                          "content": "平均票价",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "JjF3T",
+                          "name": "Num",
+                          "fill": "$accent",
+                          "content": "790元",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 36,
+                          "fontWeight": "200",
+                          "letterSpacing": -1
+                        },
+                        {
+                          "type": "text",
+                          "id": "oxzSR",
+                          "name": "Delta",
+                          "fill": "$accent",
+                          "content": "同比 +100元",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uKayq",
+                  "name": "List",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Q6555",
+                      "name": "Item1",
+                      "fill": "$text-secondary",
+                      "content": "春假、会议会展等热点抓住",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XBRcV",
+                      "name": "Item2",
+                      "fill": "$text-secondary",
+                      "content": "平淡季主基地码头劣势凸显,运价承压",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "n8DKh",
+      "x": 8040,
+      "y": 0,
+      "name": "P07 辅营贡献",
+      "clip": true,
+      "width": 1280,
+      "height": 720,
+      "fill": "$bg-paper",
+      "layout": "vertical",
+      "gap": 20,
+      "padding": 48,
+      "children": [
+        {
+          "type": "frame",
+          "id": "CTSFr",
+          "name": "Chrome",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "text",
+              "id": "yOyAz",
+              "name": "LeftMeta",
+              "fill": "$text-helper",
+              "content": "ANCILLARY REVENUE",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "M3GDpc",
+              "name": "RightMeta",
+              "fill": "$text-helper",
+              "content": "07 / 15",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BlUzZ",
+          "name": "Head",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "text",
+              "id": "cfuOl",
+              "name": "Cat",
+              "fill": "$accent",
+              "content": "挖潜辅营贡献",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "zpwkX",
+              "name": "Title",
+              "fill": "$text-primary",
+              "content": "挖潜辅营贡献",
+              "fontFamily": "$font-sans",
+              "fontSize": 48,
+              "fontWeight": "200",
+              "letterSpacing": -1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ovnBd",
+          "name": "Ledger",
+          "width": "fill_container",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "hQm99",
+              "name": "Item1 辅营2.2亿",
+              "width": "fill_container",
+              "gap": 16,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RkJKL",
+                  "name": "BigNum",
+                  "fill": "$accent",
+                  "content": "2.2",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 64,
+                  "fontWeight": "200",
+                  "letterSpacing": -2
+                },
+                {
+                  "type": "text",
+                  "id": "apL90",
+                  "name": "Label",
+                  "fill": "$text-primary",
+                  "content": "1-6月辅营贡献（亿元）",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Sentn",
+                  "name": "Tag",
+                  "fill": "$accent",
+                  "content": "同比+9%",
+                  "textAlign": "right",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "rectangle",
+                  "id": "jgFsI",
+                  "name": "Sep",
+                  "fill": "$grey-2",
+                  "width": "fill_container",
+                  "height": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dDXUl",
+              "name": "Item2 升舱",
+              "width": "fill_container",
+              "gap": 16,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GTtj5",
+                  "name": "BigNum",
+                  "fill": "$text-primary",
+                  "content": "1,660",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 64,
+                  "fontWeight": "200",
+                  "letterSpacing": -2
+                },
+                {
+                  "type": "text",
+                  "id": "c88yD",
+                  "name": "Label",
+                  "fill": "$text-primary",
+                  "content": "国内升舱贡献（万元）",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "fbB08",
+                  "name": "Tag",
+                  "fill": "$accent",
+                  "content": "同比+50%",
+                  "textAlign": "right",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "KpbEy",
+          "name": "Products",
+          "width": "fill_container",
+          "gap": 24,
+          "padding": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "Kfj5g",
+              "name": "ProdLabel",
+              "fill": "$text-primary",
+              "content": "创新产品线",
+              "fontFamily": "$font-sans",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "RVkAp",
+              "name": "ProdList",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "G9D8PY",
+                  "name": "航旅纵横线上升舱",
+                  "fill": "$text-secondary",
+                  "content": "航旅纵横线上升舱",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ENet8",
+                  "name": "机+选座权益包",
+                  "fill": "$text-secondary",
+                  "content": "机+选座权益包",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "lX80c",
+                  "name": "宠物进客舱",
+                  "fill": "$text-secondary",
+                  "content": "宠物进客舱",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "d1fHX",
+                  "name": "境外GDS辅营全覆盖",
+                  "fill": "$text-secondary",
+                  "content": "境外GDS辅营全覆盖",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "K3KrA5",
+              "name": "Warn",
+              "fill": "$warning",
+              "content": "5-6月连续下滑",
+              "textAlign": "right",
+              "fontFamily": "$font-sans",
+              "fontSize": 14,
+              "fontWeight": "600"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "E2tQK",
+      "x": 9380,
+      "y": 0,
+      "name": "P08 客户运营",
+      "clip": true,
+      "width": 1280,
+      "height": 720,
+      "fill": "$bg-paper",
+      "layout": "vertical",
+      "gap": 20,
+      "padding": 48,
+      "children": [
+        {
+          "type": "frame",
+          "id": "w0snc5",
+          "name": "Chrome",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "text",
+              "id": "u8vi4U",
+              "name": "LeftMeta",
+              "fill": "$text-helper",
+              "content": "CUSTOMER OPERATIONS",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "ZztAF",
+              "name": "RightMeta",
+              "fill": "$text-helper",
+              "content": "08 / 15",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "QXo1X",
+          "name": "Head",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "text",
+              "id": "iehGa",
+              "name": "Cat",
+              "fill": "$accent",
+              "content": "深化客户运营",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "CfFEv",
+              "name": "Title",
+              "fill": "$text-primary",
+              "content": "深化客户运营",
+              "fontFamily": "$font-sans",
+              "fontSize": 48,
+              "fontWeight": "200",
+              "letterSpacing": -1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Ui4tM",
+          "name": "Duo8",
+          "width": "fill_container",
+          "gap": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "rXyfy",
+              "name": "Left 成效",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vJw2d",
+                  "name": "Tag",
+                  "fill": "$accent",
+                  "content": "— 成效 · ACHIEVEMENTS",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "J7NkO",
+                  "name": "Metrics",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Lzyxe",
+                      "name": "M1 商旅",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "AVktk",
+                          "name": "Label",
+                          "fill": "$text-helper",
+                          "content": "商旅贡献",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cp4pR",
+                          "name": "Num",
+                          "fill": "$accent",
+                          "content": "6,400",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 52,
+                          "fontWeight": "200",
+                          "letterSpacing": -1
+                        },
+                        {
+                          "type": "text",
+                          "id": "wbCut",
+                          "name": "Unit",
+                          "fill": "$text-secondary",
+                          "content": "万元",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "AYa0D",
+                      "name": "M2 贵宾",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "j6UeLu",
+                          "name": "Label",
+                          "fill": "$text-helper",
+                          "content": "贵宾贡献",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "UcLE3",
+                          "name": "Num",
+                          "fill": "$text-primary",
+                          "content": "3,900",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 52,
+                          "fontWeight": "200",
+                          "letterSpacing": -1
+                        },
+                        {
+                          "type": "text",
+                          "id": "oNGoG",
+                          "name": "Unit",
+                          "fill": "$text-secondary",
+                          "content": "万元",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "P3zsNC",
+              "name": "VRule",
+              "fill": "$grey-2",
+              "width": 1,
+              "height": 0
+            },
+            {
+              "type": "frame",
+              "id": "UNQ0I",
+              "name": "Right 问题与措施",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "qY7Xr",
+                  "name": "Tag",
+                  "fill": "$warning",
+                  "content": "— 问题 · CHALLENGES",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "eiX6X",
+                  "name": "WarnNum",
+                  "fill": "$warning",
+                  "content": "客户贡献同比 -13%",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "200",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "frame",
+                  "id": "yINC0",
+                  "name": "Measures",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RcfIF",
+                      "name": "强化MICE客源营销",
+                      "fill": "$text-secondary",
+                      "content": "强化MICE客源营销",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Lr43m",
+                      "name": "优化商旅一企一策",
+                      "fill": "$text-secondary",
+                      "content": "优化商旅一企一策",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "H3b4zV",
+                      "name": "协同国旅推广e鹭飞",
+                      "fill": "$text-secondary",
+                      "content": "协同国旅推广e鹭飞",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FT26o",
+                      "name": "白鹭体系升级·高价值客户建联",
+                      "fill": "$text-secondary",
+                      "content": "白鹭体系升级·高价值客户建联",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "GirMN",
+      "x": 10720,
+      "y": 0,
+      "name": "P09 销售管控",
+      "clip": true,
+      "width": 1280,
+      "height": 720,
+      "fill": "$bg-paper",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 48,
+      "children": [
+        {
+          "type": "frame",
+          "id": "ASh5F",
+          "name": "Chrome",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "text",
+              "id": "QVtzH",
+              "name": "LeftMeta",
+              "fill": "$text-helper",
+              "content": "SALES CONTROL",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "I5DVf5",
+              "name": "RightMeta",
+              "fill": "$text-helper",
+              "content": "09 / 15",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "DcHgj",
+          "name": "Head",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "text",
+              "id": "vI5WB",
+              "name": "Cat",
+              "fill": "$accent",
+              "content": "加强销售管控",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "kxvIM",
+              "name": "Title",
+              "fill": "$text-primary",
+              "content": "加强销售管控",
+              "fontFamily": "$font-sans",
+              "fontSize": 48,
+              "fontWeight": "200",
+              "letterSpacing": -1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "hjWXA",
+          "name": "Cards9",
+          "width": "fill_container",
+          "gap": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "uxB0Y",
+              "name": "— 01 · DIGITAL",
+              "width": "fill_container",
+              "fill": "$grey-1",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 28,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Az9Dl",
+                  "name": "Tag",
+                  "fill": "$accent",
+                  "content": "— 01 · DIGITAL",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "tPDXf",
+                  "name": "Num",
+                  "fill": "$text-primary",
+                  "content": "32家",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 40,
+                  "fontWeight": "200",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "lEblC",
+                  "name": "Desc",
+                  "fill": "$text-secondary",
+                  "content": "B2B接口直连,完成线下代理、聚合商对接",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "trqNM",
+              "name": "— 02 · E-COMMERCE",
+              "width": "fill_container",
+              "fill": "$grey-1",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 28,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BydnZ",
+                  "name": "Tag",
+                  "fill": "$accent",
+                  "content": "— 02 · E-COMMERCE",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "A8rvm",
+                  "name": "Num",
+                  "fill": "$text-primary",
+                  "content": "升级",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 40,
+                  "fontWeight": "200",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "nDZYr",
+                  "name": "Desc",
+                  "fill": "$text-secondary",
+                  "content": "电商中台国际退改、国内联程中转功能",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "k03lBh",
+              "name": "— 03 · COST SAVING",
+              "width": "fill_container",
+              "fill": "$grey-1",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 28,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "eqBip",
+                  "name": "Tag",
+                  "fill": "$accent",
+                  "content": "— 03 · COST SAVING",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "gQ13D",
+                  "name": "Num",
+                  "fill": "$text-primary",
+                  "content": "1,500万",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 40,
+                  "fontWeight": "200",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "Wjo8W",
+                  "name": "Desc",
+                  "fill": "$text-secondary",
+                  "content": "营销费用节支(取消国内定额代理费)",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "f5ryVx",
+              "name": "— 04 · COMPLIANCE",
+              "width": "fill_container",
+              "fill": "$grey-1",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 28,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "S4rK5F",
+                  "name": "Tag",
+                  "fill": "$accent",
+                  "content": "— 04 · COMPLIANCE",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "lPVy1",
+                  "name": "Num",
+                  "fill": "$text-primary",
+                  "content": "5,100单",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 40,
+                  "fontWeight": "200",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "qQudg",
+                  "name": "Desc",
+                  "fill": "$text-secondary",
+                  "content": "订单转移查处,罚单550万元",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "R4b35C",
+      "x": 12060,
+      "y": 0,
+      "name": "P10 绩效总览",
+      "clip": true,
+      "width": 1280,
+      "height": 720,
+      "fill": "$bg-paper",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 48,
+      "children": [
+        {
+          "type": "frame",
+          "id": "B2M8d",
+          "name": "Chrome",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "text",
+              "id": "ywemJ",
+              "name": "LeftMeta",
+              "fill": "$text-helper",
+              "content": "PERFORMANCE REVIEW",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "d7x5w",
+              "name": "RightMeta",
+              "fill": "$text-helper",
+              "content": "10 / 15",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "cWtfX",
+          "name": "Head",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "text",
+              "id": "iDNVA",
+              "name": "Cat",
+              "fill": "$accent",
+              "content": "绩效完成情况",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "G0Epyd",
+              "name": "Title",
+              "fill": "$text-primary",
+              "content": "绩效总览",
+              "fontFamily": "$font-sans",
+              "fontSize": 48,
+              "fontWeight": "200",
+              "letterSpacing": -1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "n40Sjm",
+          "name": "Row10",
+          "width": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "nZK97",
+              "name": "Left A排名",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "yo1w9",
+                  "name": "SectionLabel",
+                  "fill": "$accent",
+                  "content": "A 量级排名",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "NjJPk",
+                  "name": "福州分公司",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Z3DGv",
+                      "name": "Name",
+                      "fill": "$text-primary",
+                      "content": "福州分公司",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "hK0gW",
+                      "name": "Bar",
+                      "fill": "$accent",
+                      "width": 260,
+                      "height": 18
+                    },
+                    {
+                      "type": "text",
+                      "id": "O11ox",
+                      "name": "Val",
+                      "fill": "$text-primary",
+                      "content": "608万",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hVmi6",
+                  "name": "上海分公司",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RQ5aG",
+                      "name": "Name",
+                      "fill": "$text-primary",
+                      "content": "上海分公司",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "TwXI3",
+                      "name": "Bar",
+                      "fill": "$accent",
+                      "width": 180,
+                      "height": 18
+                    },
+                    {
+                      "type": "text",
+                      "id": "YLHg5",
+                      "name": "Val",
+                      "fill": "$text-primary",
+                      "content": "70万",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "G9jexS",
+                  "name": "杭州分公司",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Lug0F",
+                      "name": "Name",
+                      "fill": "$text-primary",
+                      "content": "杭州分公司",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "VdDYh",
+                      "name": "Bar",
+                      "fill": "$accent",
+                      "width": 150,
+                      "height": 18
+                    },
+                    {
+                      "type": "text",
+                      "id": "WhVm4",
+                      "name": "Val",
+                      "fill": "$text-primary",
+                      "content": "—",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "AULLy",
+                  "name": "重庆分公司",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mEGNM",
+                      "name": "Name",
+                      "fill": "$text-primary",
+                      "content": "重庆分公司",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "HseFZ",
+                      "name": "Bar",
+                      "fill": "$accent",
+                      "width": 120,
+                      "height": 18
+                    },
+                    {
+                      "type": "text",
+                      "id": "Yj8Wy",
+                      "name": "Val",
+                      "fill": "$text-primary",
+                      "content": "—",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BvmVt",
+                  "name": "华北营销中心",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OMfNr",
+                      "name": "Name",
+                      "fill": "$text-primary",
+                      "content": "华北营销中心",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "iqcwj",
+                      "name": "Bar",
+                      "fill": "$accent",
+                      "width": 90,
+                      "height": 18
+                    },
+                    {
+                      "type": "text",
+                      "id": "U8inA",
+                      "name": "Val",
+                      "fill": "$text-primary",
+                      "content": "—",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jD2Gx",
+                  "name": "闽南营销中心",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "V3R9s",
+                      "name": "Name",
+                      "fill": "$text-primary",
+                      "content": "闽南营销中心",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "m65Km3",
+                      "name": "Bar",
+                      "fill": "$accent",
+                      "width": 70,
+                      "height": 18
+                    },
+                    {
+                      "type": "text",
+                      "id": "W6lCgJ",
+                      "name": "Val",
+                      "fill": "$text-primary",
+                      "content": "—",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SxlIw",
+                  "name": "湖南分公司",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IXxgr",
+                      "name": "Name",
+                      "fill": "$text-primary",
+                      "content": "湖南分公司",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "G9biEj",
+                      "name": "Bar",
+                      "fill": "$accent",
+                      "width": 45,
+                      "height": 18
+                    },
+                    {
+                      "type": "text",
+                      "id": "VwJGy",
+                      "name": "Val",
+                      "fill": "$text-primary",
+                      "content": "17万",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DqLL6",
+              "name": "Right 摘要",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "eSanB",
+                  "name": "SL",
+                  "fill": "$accent",
+                  "content": "B 量级",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "PKirT",
+                  "name": "BBox",
+                  "width": "fill_container",
+                  "fill": "$grey-1",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uf9T8",
+                      "name": "B1",
+                      "fill": "$text-primary",
+                      "content": "郑州营业部 · 客户增值30万  +1.2倍",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ik7Iq",
+                      "name": "B2",
+                      "fill": "$text-primary",
+                      "content": "深圳营业部 · 客户增值47万  +31%",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "xqvNK",
+                  "name": "SL2",
+                  "fill": "$accent",
+                  "content": "C/D 量级",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "RFvWs",
+                  "name": "CBox",
+                  "width": "fill_container",
+                  "fill": "$grey-1",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hx2UY",
+                      "name": "C1",
+                      "fill": "$text-primary",
+                      "content": "武汉营业部 · 场站辅营11万  +14%",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Xm9K4",
+                      "name": "C2",
+                      "fill": "$text-primary",
+                      "content": "青岛营业部 · 场站辅营7.6万  +64%",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "T4d9q",
+                  "name": "SL3",
+                  "fill": "$accent",
+                  "content": "境外",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "K4mPbz",
+                  "name": "OBox",
+                  "width": "fill_container",
+                  "fill": "$grey-1",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Q9mt03",
+                      "name": "O1",
+                      "fill": "$text-primary",
+                      "content": "纽约办事处 · 场站辅营84万  +9%",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RfG0K",
+                      "name": "O2",
+                      "fill": "$text-primary",
+                      "content": "吉隆坡办事处 · 场站辅营33万  +69%",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "sCpIG",
+      "x": 13400,
+      "y": 0,
+      "name": "P11 亮点与警示",
+      "clip": true,
+      "width": 1280,
+      "height": 720,
+      "fill": "$bg-paper",
+      "layout": "vertical",
+      "gap": 20,
+      "padding": 48,
+      "children": [
+        {
+          "type": "frame",
+          "id": "PBtMx",
+          "name": "Chrome",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "text",
+              "id": "bAg4d",
+              "name": "LeftMeta",
+              "fill": "$text-helper",
+              "content": "PERFORMANCE DETAILS",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "dHY1C",
+              "name": "RightMeta",
+              "fill": "$text-helper",
+              "content": "11 / 15",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HopMv",
+          "name": "Head",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "text",
+              "id": "vN2Kw",
+              "name": "Cat",
+              "fill": "$accent",
+              "content": "A/B 量级绩效",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "v0Hk2",
+              "name": "Title",
+              "fill": "$text-primary",
+              "content": "亮点与警示",
+              "fontFamily": "$font-sans",
+              "fontSize": 48,
+              "fontWeight": "200",
+              "letterSpacing": -1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "taWuj",
+          "name": "Duo11",
+          "width": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "mrCK3",
+              "name": "Left 亮点",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "AbbuB",
+                  "name": "Tag",
+                  "fill": "$accent",
+                  "content": "亮点 · HIGHLIGHTS",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "fZWUs",
+                  "name": "福州分公司",
+                  "width": "fill_container",
+                  "fill": "$grey-1",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "L6NsJJ",
+                      "name": "Name",
+                      "fill": "$accent",
+                      "content": "福州分公司",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kwlyd",
+                      "name": "Data",
+                      "fill": "$accent",
+                      "content": "608万 +21%",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 24,
+                      "fontWeight": "200",
+                      "letterSpacing": -0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "b5nInI",
+                      "name": "Sub",
+                      "fill": "$text-secondary",
+                      "content": "商旅565万 +26% · 中国华电、省政府贡献提升",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "E3AZCS",
+                  "name": "上海分公司",
+                  "width": "fill_container",
+                  "fill": "$grey-1",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "skw40",
+                      "name": "Name",
+                      "fill": "$accent",
+                      "content": "上海分公司",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "J5ZRe",
+                      "name": "Data",
+                      "fill": "$accent",
+                      "content": "70万 +23%",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 24,
+                      "fontWeight": "200",
+                      "letterSpacing": -0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "WU7tG",
+                      "name": "Sub",
+                      "fill": "$text-secondary",
+                      "content": "机+X增值42万 +41%",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HXGRD",
+                  "name": "郑州营业部",
+                  "width": "fill_container",
+                  "fill": "$grey-1",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XuWXN",
+                      "name": "Name",
+                      "fill": "$accent",
+                      "content": "郑州营业部",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "O4jk7h",
+                      "name": "Data",
+                      "fill": "$accent",
+                      "content": "30万 +1.2倍",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 24,
+                      "fontWeight": "200",
+                      "letterSpacing": -0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "G193rB",
+                      "name": "Sub",
+                      "fill": "$text-secondary",
+                      "content": "B2B机+退改辅营销售",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wKBak",
+                  "name": "深圳营业部",
+                  "width": "fill_container",
+                  "fill": "$grey-1",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "A03pkk",
+                      "name": "Name",
+                      "fill": "$accent",
+                      "content": "深圳营业部",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "SYsmG",
+                      "name": "Data",
+                      "fill": "$accent",
+                      "content": "47万 +31%",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 24,
+                      "fontWeight": "200",
+                      "letterSpacing": -0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "bQxBu",
+                      "name": "Sub",
+                      "fill": "$text-secondary",
+                      "content": "票价同比 +11%",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "LB9x5",
+              "name": "VRule",
+              "fill": "$grey-2",
+              "width": 1,
+              "height": 0
+            },
+            {
+              "type": "frame",
+              "id": "crxMJ",
+              "name": "Right 警示",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mQagL",
+                  "name": "Tag",
+                  "fill": "$warning",
+                  "content": "警示 · WARNINGS",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "ai8Qs",
+                  "name": "湖南分公司",
+                  "width": "fill_container",
+                  "fill": "$grey-1",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Q35Uz",
+                      "name": "Name",
+                      "fill": "$warning",
+                      "content": "湖南分公司",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Xdevh",
+                      "name": "Data",
+                      "fill": "$warning",
+                      "content": "17万",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 24,
+                      "fontWeight": "200",
+                      "letterSpacing": -0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "mftpc",
+                      "name": "Sub",
+                      "fill": "$text-secondary",
+                      "content": "总量偏低·票价同比-2%",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "P1vKY",
+                  "name": "沈阳营业部",
+                  "width": "fill_container",
+                  "fill": "$grey-1",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "VPoui",
+                      "name": "Name",
+                      "fill": "$warning",
+                      "content": "沈阳营业部",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xNRbi",
+                      "name": "Data",
+                      "fill": "$warning",
+                      "content": "-41%",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 24,
+                      "fontWeight": "200",
+                      "letterSpacing": -0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "oiO5z",
+                      "name": "Sub",
+                      "fill": "$text-secondary",
+                      "content": "客户贡献同比·票价-5%·运力-17%",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NOGDJ",
+                  "name": "哈尔滨营业部",
+                  "width": "fill_container",
+                  "fill": "$grey-1",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PgvXj",
+                      "name": "Name",
+                      "fill": "$warning",
+                      "content": "哈尔滨营业部",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CQjjn",
+                      "name": "Data",
+                      "fill": "$warning",
+                      "content": "-34%",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 24,
+                      "fontWeight": "200",
+                      "letterSpacing": -0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "y1ZsH",
+                      "name": "Sub",
+                      "fill": "$text-secondary",
+                      "content": "客户贡献同比·票价-3%·运力-29%",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "lPz5b",
+      "x": 14740,
+      "y": 0,
+      "name": "P12 CD级及境外",
+      "clip": true,
+      "width": 1280,
+      "height": 720,
+      "fill": "$bg-paper",
+      "layout": "vertical",
+      "gap": 20,
+      "padding": 48,
+      "children": [
+        {
+          "type": "frame",
+          "id": "H4HU9",
+          "name": "Chrome",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "text",
+              "id": "h2ZXz",
+              "name": "LeftMeta",
+              "fill": "$text-helper",
+              "content": "PERFORMANCE DETAILS",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "NuZ22",
+              "name": "RightMeta",
+              "fill": "$text-helper",
+              "content": "12 / 15",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "iTHFL",
+          "name": "Head",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "text",
+              "id": "JTpQi",
+              "name": "Cat",
+              "fill": "$accent",
+              "content": "C/D 量级 & 境外",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "KZfgq",
+              "name": "Title",
+              "fill": "$text-primary",
+              "content": "C/D量级及境外绩效",
+              "fontFamily": "$font-sans",
+              "fontSize": 46,
+              "fontWeight": "200",
+              "letterSpacing": -1
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "ndA5X",
+          "name": "SecLabel",
+          "fill": "$accent",
+          "content": "C/D 量级",
+          "fontFamily": "$font-mono",
+          "fontSize": 12,
+          "fontWeight": "500"
+        },
+        {
+          "type": "frame",
+          "id": "whrEY",
+          "name": "CDRow",
+          "width": "fill_container",
+          "gap": 14,
+          "children": [
+            {
+              "type": "frame",
+              "id": "L9RrL",
+              "name": "武汉营业部",
+              "width": "fill_container",
+              "fill": "$grey-1",
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "yDF6n",
+                  "name": "Name",
+                  "fill": "$accent",
+                  "content": "武汉营业部",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "zUlpx",
+                  "name": "Num",
+                  "fill": "$text-primary",
+                  "content": "11万",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "200",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "I82y8i",
+                  "name": "Sub1",
+                  "fill": "$text-secondary",
+                  "content": "场站辅营量级最高",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "q8nFLI",
+                  "name": "Sub2",
+                  "fill": "$text-secondary",
+                  "content": "+14% · 团队贡献5万",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "inPnY",
+              "name": "青岛营业部",
+              "width": "fill_container",
+              "fill": "$grey-1",
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "QsvbP",
+                  "name": "Name",
+                  "fill": "$accent",
+                  "content": "青岛营业部",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "qAyuy",
+                  "name": "Num",
+                  "fill": "$text-primary",
+                  "content": "7.6万",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "200",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "W1tQQW",
+                  "name": "Sub1",
+                  "fill": "$text-secondary",
+                  "content": "场站辅营",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "VHeM7",
+                  "name": "Sub2",
+                  "fill": "$text-secondary",
+                  "content": "+64% · 票价同比+7%",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "HC0Ur",
+              "name": "兰州营业部",
+              "width": "fill_container",
+              "fill": "$grey-1",
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "aOXu3",
+                  "name": "Name",
+                  "fill": "$accent",
+                  "content": "兰州营业部",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "nGpb2",
+                  "name": "Num",
+                  "fill": "$text-primary",
+                  "content": "13万",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "200",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "AY22X",
+                  "name": "Sub1",
+                  "fill": "$text-secondary",
+                  "content": "货运贡献",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "zwngV",
+                  "name": "Sub2",
+                  "fill": "$text-secondary",
+                  "content": "+1.3倍",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RJTCf",
+              "name": "西宁营业部",
+              "width": "fill_container",
+              "fill": "$grey-1",
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "KLkQ0",
+                  "name": "Name",
+                  "fill": "$accent",
+                  "content": "西宁营业部",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "etQCS",
+                  "name": "Num",
+                  "fill": "$text-primary",
+                  "content": "—",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "200",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "ecc2N",
+                  "name": "Sub1",
+                  "fill": "$text-secondary",
+                  "content": "代码共享产品销售",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "VihuH",
+                  "name": "Sub2",
+                  "fill": "$text-secondary",
+                  "content": "运价协同·会员发展较好",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "o3RLJA",
+          "name": "SecLabel2",
+          "fill": "$accent",
+          "content": "境外",
+          "fontFamily": "$font-mono",
+          "fontSize": 12,
+          "fontWeight": "500"
+        },
+        {
+          "type": "frame",
+          "id": "HWhP2",
+          "name": "OVRow",
+          "width": "fill_container",
+          "gap": 14,
+          "children": [
+            {
+              "type": "frame",
+              "id": "z96UO",
+              "name": "纽约办事处",
+              "width": "fill_container",
+              "fill": "$grey-1",
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jYzCL",
+                  "name": "Name",
+                  "fill": "$accent",
+                  "content": "纽约办事处",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "n8ZiQP",
+                  "name": "Num",
+                  "fill": "$text-primary",
+                  "content": "84万",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "200",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "LkNaL",
+                  "name": "Sub1",
+                  "fill": "$text-secondary",
+                  "content": "境外场站辅营最高",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "GL6Nk",
+                  "name": "Sub2",
+                  "fill": "$text-secondary",
+                  "content": "+9%",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wwaoa",
+              "name": "阿姆办事处",
+              "width": "fill_container",
+              "fill": "$grey-1",
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wXnL7",
+                  "name": "Name",
+                  "fill": "$accent",
+                  "content": "阿姆办事处",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "K2Gvy",
+                  "name": "Num",
+                  "fill": "$text-primary",
+                  "content": "—",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "200",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "QAiT4",
+                  "name": "Sub1",
+                  "fill": "$text-secondary",
+                  "content": "争取福州-阿姆航权",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "k9cMgA",
+                  "name": "Sub2",
+                  "fill": "$text-secondary",
+                  "content": "时刻资源",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UHQTn",
+              "name": "雅加达办事处",
+              "width": "fill_container",
+              "fill": "$grey-1",
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DUNVZ",
+                  "name": "Name",
+                  "fill": "$accent",
+                  "content": "雅加达办事处",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "BwtUA",
+                  "name": "Num",
+                  "fill": "$text-primary",
+                  "content": "22万",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "200",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "MqHxi",
+                  "name": "Sub1",
+                  "fill": "$text-secondary",
+                  "content": "辅营+34%",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "D9SDj",
+                  "name": "Sub2",
+                  "fill": "$text-secondary",
+                  "content": "团队贡献43万",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "L5HXa",
+              "name": "吉隆坡办事处",
+              "width": "fill_container",
+              "fill": "$grey-1",
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "St6Ft",
+                  "name": "Name",
+                  "fill": "$accent",
+                  "content": "吉隆坡办事处",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "MW1ZW",
+                  "name": "Num",
+                  "fill": "$text-primary",
+                  "content": "33万",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "200",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "VTxVM",
+                  "name": "Sub1",
+                  "fill": "$text-secondary",
+                  "content": "辅营+69%",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "l6WC0K",
+                  "name": "Sub2",
+                  "fill": "$text-secondary",
+                  "content": "团队贡献16万",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "MqNCb",
+      "x": 16080,
+      "y": 0,
+      "name": "P13 专项指标",
+      "clip": true,
+      "width": 1280,
+      "height": 720,
+      "fill": "$bg-paper",
+      "layout": "vertical",
+      "gap": 20,
+      "padding": 48,
+      "children": [
+        {
+          "type": "frame",
+          "id": "kLzg6",
+          "name": "Chrome",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "text",
+              "id": "fWWlt",
+              "name": "LeftMeta",
+              "fill": "$text-helper",
+              "content": "SPECIAL INDICATORS",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "dJTg5",
+              "name": "RightMeta",
+              "fill": "$text-helper",
+              "content": "13 / 15",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "wVWsD",
+          "name": "Head",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "text",
+              "id": "pATOn",
+              "name": "Cat",
+              "fill": "$accent",
+              "content": "专项指标",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "rfTj1",
+              "name": "Title",
+              "fill": "$text-primary",
+              "content": "保险销售 & 航班超售",
+              "fontFamily": "$font-sans",
+              "fontSize": 46,
+              "fontWeight": "200",
+              "letterSpacing": -1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "s1Inp8",
+          "name": "Duo13",
+          "width": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "a6GwfM",
+              "name": "Left 保险",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "InP8Q",
+                  "name": "Tag",
+                  "fill": "$accent",
+                  "content": "保险 · INSURANCE",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "E3Z0MR",
+                  "name": "InsNum",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "R85sr",
+                      "name": "BigNum",
+                      "fill": "$accent",
+                      "content": "777万",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 56,
+                      "fontWeight": "200",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "text",
+                      "id": "uVWLm",
+                      "name": "Delta",
+                      "fill": "$warning",
+                      "content": "同比 -2%",
+                      "textAlign": "right",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pFTzL",
+                  "name": "Channel",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "B9tiM",
+                      "name": "Online",
+                      "fill": "$accent",
+                      "width": 200,
+                      "height": 22
+                    },
+                    {
+                      "type": "text",
+                      "id": "I0r7f",
+                      "name": "OnlineLabel",
+                      "fill": "$text-primary",
+                      "content": "线上90%",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "aXjz5",
+                      "name": "Offline",
+                      "fill": "$grey-2",
+                      "width": 24,
+                      "height": 22
+                    },
+                    {
+                      "type": "text",
+                      "id": "TcbQ1",
+                      "name": "OfflineLabel",
+                      "fill": "$text-secondary",
+                      "content": "线下10%",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "SZmox",
+                  "name": "Note",
+                  "fill": "$text-secondary",
+                  "content": "优秀: 福州(占保险大盘5%)、郑州、闽南、兰州、贵阳、青岛",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "mcFUN",
+              "name": "Right 超售",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DNt31",
+                  "name": "Tag",
+                  "fill": "$text-primary",
+                  "content": "超售 · OVERBOOKING",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "zF006",
+                  "name": "Target",
+                  "fill": "$text-primary",
+                  "content": "目标: 超售费用率 < 35%",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "B1O99",
+                  "name": "OVGrid",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Qr4a8",
+                      "name": "Good",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "j7kC8Q",
+                          "name": "Label",
+                          "fill": "$accent",
+                          "content": "优秀 (<30%)",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "hjS2x",
+                          "name": "List",
+                          "fill": "$text-secondary",
+                          "content": "哈尔滨·广州·深圳·青岛·太原",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mrx99",
+                          "name": "Label2",
+                          "fill": "$accent",
+                          "content": "地服优秀",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "BFvdO",
+                          "name": "List2",
+                          "fill": "$text-secondary",
+                          "content": "北京·杭州·厦门",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "B4dqz",
+                      "name": "Bad",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YSi57",
+                          "name": "Label",
+                          "fill": "$warning",
+                          "content": "需改进 (>75%)",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LPp72",
+                          "name": "List",
+                          "fill": "$warning",
+                          "content": "沈阳·西宁·长春·珠海",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "MKUbv",
+                          "name": "Note2",
+                          "fill": "$text-secondary",
+                          "content": "人均赔偿高公司平均1倍以上",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "BrLFs",
+      "x": 17420,
+      "y": 0,
+      "name": "P14 暑运动员",
+      "clip": true,
+      "width": 1280,
+      "height": 720,
+      "fill": "$bg-dark",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 48,
+      "children": [
+        {
+          "type": "frame",
+          "id": "H3RQqV",
+          "name": "Chrome",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "text",
+              "id": "rv6Jf",
+              "name": "LeftMeta",
+              "fill": "#ffffff80",
+              "content": "SUMMER CAMPAIGN",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "OtqPy",
+              "name": "RightMeta",
+              "fill": "#ffffff80",
+              "content": "14 / 15",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "J7M1h",
+          "name": "Kicker",
+          "fill": "$accent",
+          "content": "MOBILIZATION · SUMMER 2026",
+          "fontFamily": "$font-mono",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "c0UuQk",
+          "name": "Statement",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "l3cPfM",
+              "name": "Line1",
+              "fill": "#FFFFFF",
+              "content": "暑运旺季",
+              "fontFamily": "$font-sans",
+              "fontSize": 72,
+              "fontWeight": "200",
+              "letterSpacing": -2
+            },
+            {
+              "type": "text",
+              "id": "wrWss",
+              "name": "Line2",
+              "fill": "$accent",
+              "content": "全力攻坚",
+              "fontFamily": "$font-sans",
+              "fontSize": 72,
+              "fontWeight": "200",
+              "letterSpacing": -2
+            },
+            {
+              "type": "text",
+              "id": "kNKU7",
+              "name": "Desc",
+              "fill": "#ffffffb3",
+              "content": "全年经营决战核心时期 · 紧扣公司部署 · 齐心协力、灵活应变 · 全力以赴打好旺季营销攻坚战",
+              "fontFamily": "$font-sans",
+              "fontSize": 16,
+              "fontWeight": "300"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "NaAWY",
+          "name": "Bottom",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "text",
+              "id": "IJuLm",
+              "name": "Left",
+              "fill": "#ffffff80",
+              "content": "营销系统全体",
+              "fontFamily": "$font-mono",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "hXljt",
+              "name": "Right",
+              "fill": "#ffffff80",
+              "content": "2026.07",
+              "fontFamily": "$font-mono",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "kBMbW",
+      "x": 18760,
+      "y": 0,
+      "name": "P15 总结致谢",
+      "clip": true,
+      "width": 1280,
+      "height": 720,
+      "children": [
+        {
+          "type": "frame",
+          "id": "oSo8U",
+          "name": "Left IKB",
+          "width": 640,
+          "height": 720,
+          "fill": "$accent",
+          "layout": "vertical",
+          "padding": 48,
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "text",
+              "id": "VVELH",
+              "name": "PageNum",
+              "fill": "#ffffff99",
+              "content": "15 / 15",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "m0hFY1",
+              "name": "Tag",
+              "fill": "#ffffffb3",
+              "content": "SUMMARY",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "YflMB",
+              "name": "Stmt",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VAZTL",
+                  "name": "Line1",
+                  "fill": "#FFFFFF",
+                  "content": "稳运行",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 72,
+                  "fontWeight": "200",
+                  "letterSpacing": -2
+                },
+                {
+                  "type": "text",
+                  "id": "hCPxS",
+                  "name": "Line2",
+                  "fill": "#FFFFFF",
+                  "content": "抢效益",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 72,
+                  "fontWeight": "200",
+                  "letterSpacing": -2,
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "iYRii",
+                  "name": "Desc",
+                  "fill": "#ffffffcc",
+                  "content": "营销系统与各运行保障部门通力协作",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "300"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VicMH",
+              "name": "Bottom",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "b2tq3e",
+                  "name": "Speaker",
+                  "fill": "#ffffff99",
+                  "content": "张总",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "QGWJY",
+                  "name": "Date",
+                  "fill": "#ffffff99",
+                  "content": "2026.07.09",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "QLZax",
+          "name": "Right Takeaways",
+          "width": 640,
+          "height": 720,
+          "fill": "$bg-paper",
+          "layout": "vertical",
+          "padding": 48,
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "text",
+              "id": "Zn8pO",
+              "name": "TakeawayLabel",
+              "fill": "$text-helper",
+              "content": "TAKEAWAYS",
+              "fontFamily": "$font-mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "r8aa4Z",
+              "name": "TakeawayList",
+              "width": "fill_container",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "uWvLo",
+                  "name": "T01",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sCnuT",
+                      "name": "Num",
+                      "fill": "$text-primary",
+                      "content": "01",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 48,
+                      "fontWeight": "200",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Yv9AA",
+                      "name": "Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "JutVY",
+                          "name": "Title",
+                          "fill": "$text-primary",
+                          "content": "经营承压,运力效率领先",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "eZ1vA",
+                          "name": "Desc",
+                          "fill": "$text-secondary",
+                          "content": "日利用率9.4h,比行业高0.4h;旺季10.8h居主要航司首位",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "S3JyE4",
+                  "name": "T02",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XS26v",
+                      "name": "Num",
+                      "fill": "$text-primary",
+                      "content": "02",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 48,
+                      "fontWeight": "200",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VYPnH",
+                      "name": "Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "JyHP9",
+                          "name": "Title",
+                          "fill": "$text-primary",
+                          "content": "辅营增长亮眼,协同成效显著",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "wB3ma",
+                          "name": "Desc",
+                          "fill": "$text-secondary",
+                          "content": "辅营+9%、升舱+50%;行业均价+100元;费用节支1500万",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xJPR1",
+                  "name": "T03",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PlS0n",
+                      "name": "Num",
+                      "fill": "$accent",
+                      "content": "03",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 48,
+                      "fontWeight": "200",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "x7ZyL",
+                      "name": "Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "NgD4d",
+                          "name": "Title",
+                          "fill": "$accent",
+                          "content": "暑运决战,全力以赴",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "z55up",
+                          "name": "Desc",
+                          "fill": "$text-secondary",
+                          "content": "紧扣部署、灵活应变,打好旺季营销攻坚战",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "loCL7",
+              "name": "EndLabel",
+              "fill": "$text-helper",
+              "content": "→ 完 · END OF REPORT",
+              "textAlign": "right",
+              "fontFamily": "$font-mono",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "bg-paper": {
+      "type": "color",
+      "value": "#FAFAF8"
+    },
+    "bg-dark": {
+      "type": "color",
+      "value": "#0A0A0A"
+    },
+    "accent": {
+      "type": "color",
+      "value": "#002FA7"
+    },
+    "accent-on": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "text-primary": {
+      "type": "color",
+      "value": "#0A0A0A"
+    },
+    "text-secondary": {
+      "type": "color",
+      "value": "#525252"
+    },
+    "text-helper": {
+      "type": "color",
+      "value": "#737373"
+    },
+    "grey-1": {
+      "type": "color",
+      "value": "#F0F0EE"
+    },
+    "grey-2": {
+      "type": "color",
+      "value": "#D4D4D2"
+    },
+    "grey-3": {
+      "type": "color",
+      "value": "#737373"
+    },
+    "font-sans": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "font-mono": {
+      "type": "string",
+      "value": "JetBrains Mono"
+    },
+    "warning": {
+      "type": "color",
+      "value": "#C0392B"
+    }
+  },
+  "fileToken": "9f5ead57-afce-4ed7-aa98-fb9651964ced"
+}
